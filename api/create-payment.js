@@ -11,7 +11,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    // ⚠️ endpoint et noms de champs à confirmer avec la doc SasPay
+    
     // (section "Payment Links" / "Créer un paiement" de docs.saspay.me)
     const response = await fetch('https://api.saspay.me/v1/payment-links', {
       method: 'POST',
